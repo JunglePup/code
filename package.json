@@ -1,0 +1,28 @@
+{
+    "name": "junglepup",
+    "displayName": "Jungle Pup",
+    "description": "A puppy jungle aesthetic theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Jungle Pup",
+                "uiTheme": "vs-dark",
+                "path": "./themes/JunglePup-color-theme.json"
+            }
+        ]
+    },
+    "scripts": {
+        "build": "node build",
+        "publish": "vsce publish"
+    },
+    "devDependencies": {
+        "vsce": "^2.7.0"
+    }
+}
