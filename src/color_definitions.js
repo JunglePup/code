@@ -10,9 +10,9 @@ module.exports = {
     "jp-text": "#D9D9D9",
 
     // Highlights
-    "jp-highlight-low": "#32001d",
-    "jp-highlight-med": "#4b002c",
-    "jp-highlight-high": "#63003A",
+    "jp-highlight-low": "#2D2625",
+    "jp-highlight-med": "#372f2d",
+    "jp-highlight-high": "#443c39",
 
     // Accents
     "jp-pink": "#D15B8F",

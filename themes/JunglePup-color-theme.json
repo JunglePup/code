@@ -192,8 +192,8 @@
 		"editorCursor.foreground": "#D9D9D9",
 		"editor.foreground": "#D9D9D9",
 		"editorWhitespace.foreground": "#003b2b",
-		"editor.lineHighlightBackground": "#4b002c",
-		"editor.selectionBackground": "#32001d"
+		"editor.lineHighlightBackground": "#372f2d",
+		"editor.selectionBackground": "#2D2625"
 	},
 	"name": "Jungle Pup"
 }
