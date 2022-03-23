@@ -193,7 +193,23 @@
 		"editor.foreground": "#D9D9D9",
 		"editorWhitespace.foreground": "#003b2b",
 		"editor.lineHighlightBackground": "#372f2d",
-		"editor.selectionBackground": "#2D2625"
+		"editor.selectionBackground": "#443c39",
+		"editor.inactiveSelectionBackground": "#372f2d",
+		"editorLineNumber.foreground": "#569C5B",
+		// UI colors
+		"foreground": "#D9D9D9",
+		"textLink.foreground": "#D15B8F",
+		"activityBar.background": "#003124",
+		"activityBar.foreground": "#c19a6b",
+		"sideBar.background": "#003124",
+		"statusBar.background": "#003124",
+		"titleBar.activeBackground": "#003124",
+		"titleBar.inactiveBackground": "#003124",
+		"tab.activeBackground": "#003b2b",
+		"tab.inactiveBackground": "#003124",
+		"tab.border": "#002319",
+		"editorGroupHeader.noTabsBackground": "#003124",
+		"editorGroupHeader.tabsBackground": "#002319"
 	},
 	"name": "Jungle Pup"
 }

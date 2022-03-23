@@ -193,7 +193,23 @@
 		"editor.foreground": "jp-text",
 		"editorWhitespace.foreground": "jp-overlay",
 		"editor.lineHighlightBackground": "jp-highlight-med",
-		"editor.selectionBackground": "jp-highlight-low"
+		"editor.selectionBackground": "jp-highlight-high",
+		"editor.inactiveSelectionBackground": "jp-highlight-med",
+		"editorLineNumber.foreground": "jp-green",
+		// UI colors
+		"foreground": "jp-text",
+		"textLink.foreground": "jp-pink",
+		"activityBar.background": "jp-ui",
+		"activityBar.foreground": "jp-camel",
+		"sideBar.background": "jp-ui",
+		"statusBar.background": "jp-ui",
+		"titleBar.activeBackground": "jp-ui",
+		"titleBar.inactiveBackground": "jp-ui",
+		"tab.activeBackground": "jp-overlay",
+		"tab.inactiveBackground": "jp-ui",
+		"tab.border": "jp-back",
+		"editorGroupHeader.noTabsBackground": "jp-ui",
+		"editorGroupHeader.tabsBackground": "jp-back"
 	},
 	"name": "Jungle Pup"
 }
