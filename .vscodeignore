@@ -1,4 +1,5 @@
 .vscode/**
-.vscode-test/**
+assets/**
+src/**
 .gitignore
-vsc-extension-quickstart.md
+build.js

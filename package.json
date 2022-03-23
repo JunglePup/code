@@ -3,6 +3,10 @@
     "displayName": "Jungle Pup",
     "description": "A puppy jungle aesthetic theme",
     "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/keller00/JunglePup"
+    },
     "engines": {
         "vscode": "^1.65.0"
     },
