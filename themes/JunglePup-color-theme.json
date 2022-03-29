@@ -188,10 +188,10 @@
 		},
 	],
 	"colors": {
-		"editor.background": "#002319",
+		"editor.background": "#002118",
 		"editorCursor.foreground": "#D9D9D9",
 		"editor.foreground": "#D9D9D9",
-		"editorWhitespace.foreground": "#003b2b",
+		"editorWhitespace.foreground": "#003E2E",
 		"editor.lineHighlightBackground": "#372f2d",
 		"editor.selectionBackground": "#443c39",
 		"editor.inactiveSelectionBackground": "#372f2d",
@@ -205,11 +205,20 @@
 		"statusBar.background": "#003124",
 		"titleBar.activeBackground": "#003124",
 		"titleBar.inactiveBackground": "#003124",
-		"tab.activeBackground": "#003b2b",
+		"tab.activeBackground": "#003E2E",
 		"tab.inactiveBackground": "#003124",
-		"tab.border": "#002319",
+		"tab.border": "#002118",
+		"gitDecoration.addedResourceForeground": "#569C5B",
+		"gitDecoration.modifiedResourceForeground": "#c19a6b",
+		"gitDecoration.deletedResourceForeground": "#C63D3D",
+		"gitDecoration.renamedResourceForeground": "#569C5B",
+		"gitDecoration.stageModifiedResourceForeground": "#569C5B",
+		"gitDecoration.stageDeletedResourceForeground": "#569C5B",
+		"gitDecoration.untrackedResourceForeground": "#AAAAAA",
+		"gitDecoration.ignoredResourceForeground": "#848484",
+		"gitDecoration.conflictingResourceForeground": "#8A79C7",
 		"editorGroupHeader.noTabsBackground": "#003124",
-		"editorGroupHeader.tabsBackground": "#002319"
+		"editorGroupHeader.tabsBackground": "#002118"
 	},
 	"name": "Jungle Pup"
 }
