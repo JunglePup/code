@@ -203,6 +203,8 @@
 		"activityBar.foreground": "jp-camel",
 		"sideBar.background": "jp-ui",
 		"statusBar.background": "jp-ui",
+		"statusBar.debuggingBackground": "jp-green",
+		"statusBarItem.remoteBackground": "jp-purple",
 		"titleBar.activeBackground": "jp-ui",
 		"titleBar.inactiveBackground": "jp-ui",
 		"tab.activeBackground": "jp-overlay",

@@ -203,6 +203,8 @@
 		"activityBar.foreground": "#c19a6b",
 		"sideBar.background": "#003124",
 		"statusBar.background": "#003124",
+		"statusBar.debuggingBackground": "#569C5B",
+		"statusBarItem.remoteBackground": "#8A79C7",
 		"titleBar.activeBackground": "#003124",
 		"titleBar.inactiveBackground": "#003124",
 		"tab.activeBackground": "#003E2E",
