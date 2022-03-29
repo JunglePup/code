@@ -1,8 +1,8 @@
 module.exports = {
     // Background
-    "jp-back": "#002319",
+    "jp-back": "#002118",
     "jp-ui": "#003124",
-    "jp-overlay": "#003b2b",
+    "jp-overlay": "#003E2E",
 
     // Text colors
     "jp-muted": "#848484",
