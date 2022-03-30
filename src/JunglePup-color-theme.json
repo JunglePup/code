@@ -192,10 +192,13 @@
 		"editorCursor.foreground": "jp-text",
 		"editor.foreground": "jp-text",
 		"editorWhitespace.foreground": "jp-overlay",
-		"editor.lineHighlightBackground": "jp-highlight-med",
+		"editor.lineHighlightBackground": "jp-highlight-low",
 		"editor.selectionBackground": "jp-highlight-high",
 		"editor.inactiveSelectionBackground": "jp-highlight-med",
+		"editor.selectionHighlightBackground": "jp-highlight-med",
 		"editorLineNumber.foreground": "jp-green",
+		"editorLineNumber.activeForeground": "jp-subtle",
+		"editor.wordHighlightBackground": "jp-highlight-med",
 		// UI colors
 		"foreground": "jp-text",
 		"textLink.foreground": "jp-pink",
@@ -210,6 +213,8 @@
 		"tab.activeBackground": "jp-overlay",
 		"tab.inactiveBackground": "jp-ui",
 		"tab.border": "jp-back",
+		"tab.activeBorder": "jp-green",
+		// Git colors
 		"gitDecoration.addedResourceForeground": "jp-green",
 		"gitDecoration.modifiedResourceForeground": "jp-camel",
 		"gitDecoration.deletedResourceForeground": "jp-red",
@@ -220,7 +225,9 @@
 		"gitDecoration.ignoredResourceForeground": "jp-muted",
 		"gitDecoration.conflictingResourceForeground": "jp-purple",
 		"editorGroupHeader.noTabsBackground": "jp-ui",
-		"editorGroupHeader.tabsBackground": "jp-back"
+		"editorGroupHeader.tabsBackground": "jp-back",
+		"progressBar.background": "jp-pink",
+
 	},
 	"name": "Jungle Pup"
 }

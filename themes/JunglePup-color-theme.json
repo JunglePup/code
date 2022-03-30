@@ -192,10 +192,13 @@
 		"editorCursor.foreground": "#D9D9D9",
 		"editor.foreground": "#D9D9D9",
 		"editorWhitespace.foreground": "#003E2E",
-		"editor.lineHighlightBackground": "#372f2d",
-		"editor.selectionBackground": "#443c39",
-		"editor.inactiveSelectionBackground": "#372f2d",
+		"editor.lineHighlightBackground": "#2d2625",
+		"editor.selectionBackground": "#544846",
+		"editor.inactiveSelectionBackground": "#473d3b",
+		"editor.selectionHighlightBackground": "#473d3b",
 		"editorLineNumber.foreground": "#569C5B",
+		"editorLineNumber.activeForeground": "#AAAAAA",
+		"editor.wordHighlightBackground": "#473d3b",
 		// UI colors
 		"foreground": "#D9D9D9",
 		"textLink.foreground": "#D15B8F",
@@ -210,6 +213,8 @@
 		"tab.activeBackground": "#003E2E",
 		"tab.inactiveBackground": "#003124",
 		"tab.border": "#002118",
+		"tab.activeBorder": "#569C5B",
+		// Git colors
 		"gitDecoration.addedResourceForeground": "#569C5B",
 		"gitDecoration.modifiedResourceForeground": "#c19a6b",
 		"gitDecoration.deletedResourceForeground": "#C63D3D",
@@ -220,7 +225,9 @@
 		"gitDecoration.ignoredResourceForeground": "#848484",
 		"gitDecoration.conflictingResourceForeground": "#8A79C7",
 		"editorGroupHeader.noTabsBackground": "#003124",
-		"editorGroupHeader.tabsBackground": "#002118"
+		"editorGroupHeader.tabsBackground": "#002118",
+		"progressBar.background": "#D15B8F",
+
 	},
 	"name": "Jungle Pup"
 }
