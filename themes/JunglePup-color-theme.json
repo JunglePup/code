@@ -227,7 +227,15 @@
 		"editorGroupHeader.noTabsBackground": "#003124",
 		"editorGroupHeader.tabsBackground": "#002118",
 		"progressBar.background": "#D15B8F",
-
+		// Minimap colors
+		"minimap.findMatchHighlight": "#c19a6b",
+		"minimap.selectionHighlight": "#544846",
+		"minimap.errorHighlight": "#C63D3D",
+		"minimap.warningHighlight": "#8A79C7",
+		"minimap.selectionOccurrenceHighlight": "#473d3b",
+		"minimapGutter.addedBackground": "#569C5B",
+		"minimapGutter.modifiedBackground": "#c19a6b",
+		"minimapGutter.deletedBackground": "#C63D3D",
 	},
 	"name": "Jungle Pup"
 }

@@ -227,7 +227,15 @@
 		"editorGroupHeader.noTabsBackground": "jp-ui",
 		"editorGroupHeader.tabsBackground": "jp-back",
 		"progressBar.background": "jp-pink",
-
+		// Minimap colors
+		"minimap.findMatchHighlight": "jp-camel",
+		"minimap.selectionHighlight": "jp-highlight-high",
+		"minimap.errorHighlight": "jp-red",
+		"minimap.warningHighlight": "jp-purple",
+		"minimap.selectionOccurrenceHighlight": "jp-highlight-med",
+		"minimapGutter.addedBackground": "jp-green",
+		"minimapGutter.modifiedBackground": "jp-camel",
+		"minimapGutter.deletedBackground": "jp-red",
 	},
 	"name": "Jungle Pup"
 }
