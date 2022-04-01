@@ -236,6 +236,11 @@
 		"minimapGutter.addedBackground": "jp-green",
 		"minimapGutter.modifiedBackground": "jp-camel",
 		"minimapGutter.deletedBackground": "jp-red",
+		// Breadcrumb colors
+		"breadcrumb.foreground": "jp-text",
+		"breadcrumb.focusForeground": "jp-subtle",
+		"breadcrumb.activeSelectionForeground": "jp-subtle",
+		"breadcrumbPicker.background": "jp-ui"
 	},
 	"name": "Jungle Pup"
 }

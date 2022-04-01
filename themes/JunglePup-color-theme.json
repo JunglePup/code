@@ -236,6 +236,11 @@
 		"minimapGutter.addedBackground": "#569C5B",
 		"minimapGutter.modifiedBackground": "#c19a6b",
 		"minimapGutter.deletedBackground": "#C63D3D",
+		// Breadcrumb colors
+		"breadcrumb.foreground": "#D9D9D9",
+		"breadcrumb.focusForeground": "#AAAAAA",
+		"breadcrumb.activeSelectionForeground": "#AAAAAA",
+		"breadcrumbPicker.background": "#003124"
 	},
 	"name": "Jungle Pup"
 }
