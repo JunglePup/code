@@ -251,6 +251,13 @@
 		"diffEditorGutter.removedLineBackground": "jp-red40",
 		"diffEditorOverview.removedForeground": "jp-red",
 		"diffEditor.diagonalFill": "jp-overlay",
+		// Merge conflict colors
+		"merge.currentHeaderBackground": "jp-pink8f",
+		"merge.currentContentBackground": "jp-pink5f",
+		"editorOverviewRuler.currentContentForeground": "jp-pink8f",
+		"merge.incomingHeaderBackground": "jp-purple8f",
+		"merge.incomingContentBackground": "jp-purple5f",
+		"editorOverviewRuler.incomingContentForeground": "jp-purple8f"
 	},
 	"name": "Jungle Pup"
 }

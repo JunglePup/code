@@ -251,6 +251,13 @@
 		"diffEditorGutter.removedLineBackground": "#C63D3D40",
 		"diffEditorOverview.removedForeground": "#C63D3D",
 		"diffEditor.diagonalFill": "#003E2E",
+		// Merge conflict colors
+		"merge.currentHeaderBackground": "#D15B8F8f",
+		"merge.currentContentBackground": "#D15B8F5f",
+		"editorOverviewRuler.currentContentForeground": "#D15B8F8f",
+		"merge.incomingHeaderBackground": "#8A79C78f",
+		"merge.incomingContentBackground": "#8A79C75f",
+		"editorOverviewRuler.incomingContentForeground": "#8A79C78f"
 	},
 	"name": "Jungle Pup"
 }
