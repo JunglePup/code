@@ -240,7 +240,17 @@
 		"breadcrumb.foreground": "jp-text",
 		"breadcrumb.focusForeground": "jp-subtle",
 		"breadcrumb.activeSelectionForeground": "jp-subtle",
-		"breadcrumbPicker.background": "jp-ui"
+		"breadcrumbPicker.background": "jp-ui",
+		// Diff colors
+		"diffEditor.insertedTextBackground": "jp-green50",
+		"diffEditor.insertedLineBackground": "jp-green40",
+		"diffEditorGutter.insertedLineBackground": "jp-green40",
+		"diffEditorOverview.insertedForeground": "jp-green",
+		"diffEditor.removedTextBackground": "jp-red50",
+		"diffEditor.removedLineBackground": "jp-red40",
+		"diffEditorGutter.removedLineBackground": "jp-red40",
+		"diffEditorOverview.removedForeground": "jp-red",
+		"diffEditor.diagonalFill": "jp-overlay",
 	},
 	"name": "Jungle Pup"
 }
