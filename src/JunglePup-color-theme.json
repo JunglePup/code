@@ -214,6 +214,11 @@
 		"tab.inactiveBackground": "jp-ui",
 		"tab.border": "jp-back",
 		"tab.activeBorder": "jp-green",
+		// Editor gutter
+		"editorGutter.modifiedBackground": "jp-camel",
+		"editorGutter.addedBackground": "jp-green",
+		"editorGutter.deletedBackground": "jp-red",
+		"editorGutter.foldingControlForeground": "jp-blue",
 		// Git colors
 		"gitDecoration.addedResourceForeground": "jp-green",
 		"gitDecoration.modifiedResourceForeground": "jp-camel",

@@ -214,6 +214,11 @@
 		"tab.inactiveBackground": "#003124",
 		"tab.border": "#002118",
 		"tab.activeBorder": "#569C5B",
+		// Editor gutter
+		"editorGutter.modifiedBackground": "#c19a6b",
+		"editorGutter.addedBackground": "#569C5B",
+		"editorGutter.deletedBackground": "#C63D3D",
+		"editorGutter.foldingControlForeground": "#61A0C2",
 		// Git colors
 		"gitDecoration.addedResourceForeground": "#569C5B",
 		"gitDecoration.modifiedResourceForeground": "#c19a6b",
