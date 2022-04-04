@@ -262,7 +262,18 @@
 		"editorOverviewRuler.currentContentForeground": "#D15B8F8f",
 		"merge.incomingHeaderBackground": "#8A79C78f",
 		"merge.incomingContentBackground": "#8A79C75f",
-		"editorOverviewRuler.incomingContentForeground": "#8A79C78f"
+		"editorOverviewRuler.incomingContentForeground": "#8A79C78f",
+		// Testing colors
+		"testing.iconFailed": "#C63D3D",
+		"testing.iconErrored": "#C63D3D",
+		"testing.iconPassed": "#569C5B",
+		"testing.runAction": "#61A0C2",
+		"testing.iconQueued": "#AAAAAA",
+		"testing.iconUnset": "#848484",
+		"testing.iconSkipped": "#c19a6b",
+		"testing.peekBorder": "#C63D3D",
+		"testing.peekHeaderBackground": "#C63D3D60",
+		"testing.message.error.decorationForeground": "#C63D3D",
 	},
 	"name": "Jungle Pup"
 }

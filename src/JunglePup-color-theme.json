@@ -262,7 +262,18 @@
 		"editorOverviewRuler.currentContentForeground": "jp-pink8f",
 		"merge.incomingHeaderBackground": "jp-purple8f",
 		"merge.incomingContentBackground": "jp-purple5f",
-		"editorOverviewRuler.incomingContentForeground": "jp-purple8f"
+		"editorOverviewRuler.incomingContentForeground": "jp-purple8f",
+		// Testing colors
+		"testing.iconFailed": "jp-red",
+		"testing.iconErrored": "jp-red",
+		"testing.iconPassed": "jp-green",
+		"testing.runAction": "jp-blue",
+		"testing.iconQueued": "jp-subtle",
+		"testing.iconUnset": "jp-muted",
+		"testing.iconSkipped": "jp-camel",
+		"testing.peekBorder": "jp-red",
+		"testing.peekHeaderBackground": "jp-red60",
+		"testing.message.error.decorationForeground": "jp-red",
 	},
 	"name": "Jungle Pup"
 }
