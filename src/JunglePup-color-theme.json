@@ -274,6 +274,25 @@
 		"testing.peekBorder": "jp-red",
 		"testing.peekHeaderBackground": "jp-red60",
 		"testing.message.error.decorationForeground": "jp-red",
+		// Debug colors
+		"debugIcon.breakpointForeground": "jp-red",
+		"debugIcon.breakpointDisabledForeground": "jp-muted",
+		"debugIcon.breakpointCurrentStackframeForeground": "jp-pink",
+		"debugIcon.startForeground": "jp-pink",
+		"debugIcon.pauseForeground": "jp-camel",
+		"debugIcon.stopForeground": "jp-red",
+		"debugIcon.disconnectForeground": "jp-red",
+		"debugIcon.restartForeground": "jp-green",
+		"debugIcon.stepOverForeground": "jp-camel",
+		"debugIcon.stepIntoForeground": "jp-camel",
+		"debugIcon.stepOutForeground": "jp-purple",
+		"debugIcon.continueForeground": "jp-pink",
+		"debugIcon.stepBackForeground": "jp-camel",
+		"debugConsole.infoForeground": "jp-blue",
+		"debugConsole.warningForeground": "jp-camel",
+		"debugConsole.errorForeground": "jp-purple",
+		"debugConsole.sourceForeground": "jp-purple",
+		"debugConsoleInputIcon.foreground": "jp-pink"
 	},
 	"name": "Jungle Pup"
 }

@@ -274,6 +274,25 @@
 		"testing.peekBorder": "#C63D3D",
 		"testing.peekHeaderBackground": "#C63D3D60",
 		"testing.message.error.decorationForeground": "#C63D3D",
+		// Debug colors
+		"debugIcon.breakpointForeground": "#C63D3D",
+		"debugIcon.breakpointDisabledForeground": "#848484",
+		"debugIcon.breakpointCurrentStackframeForeground": "#D15B8F",
+		"debugIcon.startForeground": "#D15B8F",
+		"debugIcon.pauseForeground": "#c19a6b",
+		"debugIcon.stopForeground": "#C63D3D",
+		"debugIcon.disconnectForeground": "#C63D3D",
+		"debugIcon.restartForeground": "#569C5B",
+		"debugIcon.stepOverForeground": "#c19a6b",
+		"debugIcon.stepIntoForeground": "#c19a6b",
+		"debugIcon.stepOutForeground": "#8A79C7",
+		"debugIcon.continueForeground": "#D15B8F",
+		"debugIcon.stepBackForeground": "#c19a6b",
+		"debugConsole.infoForeground": "#61A0C2",
+		"debugConsole.warningForeground": "#c19a6b",
+		"debugConsole.errorForeground": "#8A79C7",
+		"debugConsole.sourceForeground": "#8A79C7",
+		"debugConsoleInputIcon.foreground": "#D15B8F"
 	},
 	"name": "Jungle Pup"
 }
