@@ -10,4 +10,4 @@ repos:
     name: build themes
     language: system
     entry: npm run build
-    files: ^src/.*\.json$
+    files: ^src/.*\.ts$
