@@ -107,6 +107,10 @@ export const getColors = () => {
 		"debugConsole.warningForeground": Palette.camel,
 		"debugConsole.errorForeground": Palette.purple,
 		"debugConsole.sourceForeground": Palette.purple,
-		"debugConsoleInputIcon.foreground": Palette.pink
+		"debugConsoleInputIcon.foreground": Palette.pink,
+		// Inlay Hint Colors
+		"editor.inlineSuggest.enabled": true,
+		"editorInlayHint.background": Palette.ui,
+		"editorInlayHint.foreground": Palette.subtle
     }
 }

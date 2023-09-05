@@ -96,7 +96,10 @@
     "debugConsole.warningForeground": "#c19a6b",
     "debugConsole.errorForeground": "#8A79C7",
     "debugConsole.sourceForeground": "#8A79C7",
-    "debugConsoleInputIcon.foreground": "#D15B8F"
+    "debugConsoleInputIcon.foreground": "#D15B8F",
+    "editor.inlineSuggest.enabled": true,
+    "editorInlayHint.background": "#003124",
+    "editorInlayHint.foreground": "#AAAAAA"
   },
   "tokenColors": [
     {
