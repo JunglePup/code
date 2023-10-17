@@ -12,4 +12,3 @@ This editor theme is inspired by two puppies visiting the jungle.
 2. Go to "Run and Debug" and run "Preview window", which will be your preview for your changes.
 3. Either edit the file in `themes` folder for them to take effect immediately in the preview windows. This is useful for prototyping, but make sure to change the build ts files before submitting any PRs, these can be found in the `src` folder.
 4. (Optional) Run the build form your terminal with: `npm run build`.
-
