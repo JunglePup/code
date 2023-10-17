@@ -1,3 +1,4 @@
 export const opacity = (color: string, opacity: number): string => {
-    return `${color}${opacity.toString(16)}`;
-}
+  opacity = Math.floor(255*opacity);
+  return `${color}${opacity.toString(16)}`;
+};
