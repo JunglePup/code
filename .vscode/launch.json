@@ -12,7 +12,7 @@
         "type": "pwa-node"
     },
         {
-            "name": "Extension",
+            "name": "Preview window",
             "type": "extensionHost",
             "request": "launch",
             "args": [
