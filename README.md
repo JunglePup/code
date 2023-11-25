@@ -5,6 +5,7 @@ This editor theme is inspired by two puppies visiting the jungle.
 
 # Installation
  * [Install it from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=keller00.junglepup)
+ * [Install it from the Open VSX Registry](https://open-vsx.org/extension/keller00/junglepup)
  * Install it manually by cloning this repo with: `git clone https://github.com/keller00/JunglePup.git ~/.vscode/extensions`
 
 # Development
