@@ -3,4 +3,6 @@ updates:
   package-ecosystem: github-actions
   schedule:
     interval: daily
+  commit-message:
+    prefix: "ci: "
 version: 2
