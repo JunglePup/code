@@ -1,8 +1,13 @@
-# Change Log
+# Changelog
 
-All notable changes to the "junglepup" extension will be documented in this file.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+### [1.1.2](https://github.com/keller00/JunglePup/compare/v1.1.1...v1.1.2) (2024-01-10)
+
+
+### Bug Fixes
+
+* added previous changelog ([#24](https://github.com/keller00/JunglePup/issues/24)) ([f5ed745](https://github.com/keller00/JunglePup/commit/f5ed7458ad0c7393e5dd6511addabfea2b82a452))
 
 ## [1.1.1](https://github.com/JunglePup/code/compare/v1.1.0...v1.1.1) (2023-10-16)
 
