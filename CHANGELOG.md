@@ -4,7 +4,7 @@ All notable changes to the "junglepup" extension will be documented in this file
 
 See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [1.1.1](https://github.com/JunglePup/code/compare/v1.1.0...v1.1.1) (2022-10-16)
+## [1.1.1](https://github.com/JunglePup/code/compare/v1.1.0...v1.1.1) (2023-10-16)
 
 
 ### Bug Fixes
@@ -13,7 +13,7 @@ See [standard-version](https://github.com/conventional-changelog/standard-versio
 
 
 
-## [1.1.0](https://github.com/JunglePup/code/compare/v1.0.0...v1.1.0) (2022-09-04)
+## [1.1.0](https://github.com/JunglePup/code/compare/v1.0.0...v1.1.0) (2023-09-04)
 
 
 ### Features
