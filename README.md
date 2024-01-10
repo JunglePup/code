@@ -16,6 +16,6 @@ This editor theme is inspired by two puppies visiting the jungle.
 
 # Release
 Start on `main` branch.
-1. Bump version with `npm version patch`, or appropiate type of bump.
-2. Push bump commit with `git push && git push --tags`.
+1. The release process is automated with `npm run release`.
+2. Push bump commit and new tag with `git push --follow-tags origin main`.
 3. Create a new release [here](https://github.com/keller00/JunglePup/releases/new), just make sure to pick the newly created tag.
