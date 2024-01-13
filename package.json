@@ -28,6 +28,7 @@
         "publish": "vsce publish",
         "release": "standard-version"
     },
+    "icon": "assets/icon.png",
     "devDependencies": {
         "@commitlint/cli": "^18.4.4",
         "@commitlint/config-conventional": "^18.4.4",
