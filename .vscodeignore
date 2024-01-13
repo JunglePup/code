@@ -1,5 +1,9 @@
-.vscode/**
-assets/**
+.github/**
+.husky/**
+
 src/**
+node_modules/**
+.vscode/**
+
 .gitignore
 build.js
