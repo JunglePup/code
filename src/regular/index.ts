@@ -1,10 +1,10 @@
-import { getColors } from "./colors"
-import { getTokenColors } from "./tokenColors"
+import { getColors } from './colors'
+import { getTokenColors } from './tokenColors'
 
-export const buildTheme = () => {
-    return {
-        "name": "Jungle Pup",
-        "colors": getColors(),
-        "tokenColors": getTokenColors(),
-    }
+export const buildTheme = (): Record<string, unknown> => {
+  return {
+    name: 'Jungle Pup',
+    colors: getColors(),
+    tokenColors: getTokenColors()
+  }
 }
