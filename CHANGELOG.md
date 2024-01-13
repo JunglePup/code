@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/keller00/JunglePup/compare/v1.1.2...v1.2.0) (2024-01-13)
+
+
+### Features
+
+* add extension icon ([#27](https://github.com/keller00/JunglePup/issues/27)) ([6475568](https://github.com/keller00/JunglePup/commit/647556856a31bbb4c396c91fed7b249f1cf09979))
+
+
+### Bug Fixes
+
+* shrink size of theme ([#28](https://github.com/keller00/JunglePup/issues/28)) ([43a567d](https://github.com/keller00/JunglePup/commit/43a567deb9121b452c9d38808274f463f6897a21))
+
 ### [1.1.2](https://github.com/keller00/JunglePup/compare/v1.1.1...v1.1.2) (2024-01-10)
 
 
