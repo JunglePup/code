@@ -16,22 +16,22 @@ jobs:
           cache: npm
       - name: Install dev dependencies
         run: npm ci
-      # - name: Publish to Open VSX Registry
-      #   uses: HaaLeo/publish-vscode-extension@v1
-      #   id: publishToOpenVSX
-      #   with:
-      #     pat: ${{ secrets.OPEN_VSX_TOKEN }}
-      #     preRelease: ${{ github.event.release.prerelease }}
-      # - name: Publish to Visual Studio Marketplace
-      #   uses: HaaLeo/publish-vscode-extension@v1
-      #   with:
-      #     pat: ${{ secrets.VSCE_PAT }}
-      #     registryUrl: https://marketplace.visualstudio.com
-      #     preRelease: ${{ github.event.release.prerelease }}
-      #     extensionFile: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
+      - name: Publish to Open VSX Registry
+        uses: HaaLeo/publish-vscode-extension@v1
+        id: publishToOpenVSX
+        with:
+          pat: ${{ secrets.OPEN_VSX_TOKEN }}
+          preRelease: ${{ github.event.release.prerelease }}
+      - name: Publish to Visual Studio Marketplace
+        uses: HaaLeo/publish-vscode-extension@v1
+        with:
+          pat: ${{ secrets.VSCE_PAT }}
+          registryUrl: https://marketplace.visualstudio.com
+          preRelease: ${{ github.event.release.prerelease }}
+          extensionFile: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
       - name: Add vsix file to release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npx vsce pack
-          gh release upload ${{ github.event.release.tag_name }} junglepup-*.vsix
+          gh release upload ${{ github.event.release.tag_name }} ${{ steps.publishToOpenVSX.outputs.vsixPath }}
