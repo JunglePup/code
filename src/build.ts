@@ -1,10 +1,11 @@
 import { join } from 'path'
 import { writeFile } from 'fs/promises'
-import { buildTheme as buildRegularTheme } from './regular'
+import { buildTheme as buildDenseTheme } from './dense'
 
 const OutDir = join(__dirname, '..', 'themes')
 const flavours = {
-  regular: buildRegularTheme()
+  // TODO: can this be automated?
+  dense: buildDenseTheme()
 }
 
 async function main (): Promise<void> {

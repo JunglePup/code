@@ -1,4 +1,29 @@
-export const Palette = {
+export interface Palette {
+  // Background
+  back: string
+  ui: string
+  overlay: string
+
+  // Text colors
+  muted: string
+  subtle: string
+  text: string
+
+  // Highlights
+  highlight_low: string
+  highlight_med: string
+  highlight_high: string
+
+  // Accents
+  accent1: string // pink
+  accent2: string // blue
+  accent3: string // camel
+  accent4: string // green
+  accent5: string // purple
+  accent6: string // red
+};
+
+export const DensePalette: Palette = {
   // Background
   back: '#002118',
   ui: '#003124',
