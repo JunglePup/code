@@ -15,6 +15,7 @@ export interface Palette {
   highlight_high: string
 
   // Accents
+  // TODO: some of these are important to stay roughly the same color for git diff view to make intuitive sense
   accent1: string // pink
   accent2: string // blue
   accent3: string // camel
