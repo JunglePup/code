@@ -11,28 +11,28 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       name: 'Comment',
       scope: 'comment',
       settings: {
-        foreground: Palette.camel
+        foreground: Palette.accent3
       }
     },
     {
       name: 'String',
       scope: 'string',
       settings: {
-        foreground: Palette.blue
+        foreground: Palette.accent2
       }
     },
     {
       name: 'Number',
       scope: 'constant.numeric',
       settings: {
-        foreground: Palette.purple
+        foreground: Palette.accent5
       }
     },
     {
       name: 'Built-in constant',
       scope: 'constant.language',
       settings: {
-        foreground: Palette.purple
+        foreground: Palette.accent5
       }
     },
     {
@@ -42,7 +42,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
         'constant.other'
       ],
       settings: {
-        foreground: Palette.purple
+        foreground: Palette.accent5
       }
     },
     {
@@ -56,7 +56,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       name: 'Keyword',
       scope: 'keyword',
       settings: {
-        foreground: Palette.pink
+        foreground: Palette.accent1
       }
     },
     {
@@ -64,7 +64,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       scope: 'storage',
       settings: {
         fontStyle: '',
-        foreground: Palette.pink
+        foreground: Palette.accent1
       }
     },
     {
@@ -72,7 +72,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       scope: 'storage.type',
       settings: {
         fontStyle: 'italic',
-        foreground: Palette.blue
+        foreground: Palette.accent2
       }
     },
     {
@@ -80,7 +80,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       scope: 'entity.name.class',
       settings: {
         fontStyle: 'underline',
-        foreground: Palette.pink
+        foreground: Palette.accent1
       }
     },
     {
@@ -88,7 +88,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       scope: 'entity.other.inherited-class',
       settings: {
         fontStyle: 'italic underline',
-        foreground: Palette.pink
+        foreground: Palette.accent1
       }
     },
     {
@@ -96,7 +96,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       scope: 'entity.name.function',
       settings: {
         fontStyle: '',
-        foreground: Palette.pink
+        foreground: Palette.accent1
       }
     },
     {
@@ -104,7 +104,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       scope: 'variable.parameter',
       settings: {
         fontStyle: 'italic',
-        foreground: Palette.red
+        foreground: Palette.accent6
       }
     },
     {
@@ -112,7 +112,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       scope: 'entity.name.tag',
       settings: {
         fontStyle: '',
-        foreground: Palette.purple
+        foreground: Palette.accent5
       }
     },
     {
@@ -120,7 +120,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       scope: 'entity.other.attribute-name',
       settings: {
         fontStyle: '',
-        foreground: Palette.red
+        foreground: Palette.accent6
       }
     },
     {
@@ -128,7 +128,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       scope: 'support.function',
       settings: {
         fontStyle: '',
-        foreground: Palette.blue
+        foreground: Palette.accent2
       }
     },
     {
@@ -136,7 +136,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       scope: 'support.constant',
       settings: {
         fontStyle: '',
-        foreground: Palette.blue
+        foreground: Palette.accent2
       }
     },
     {
@@ -147,7 +147,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       ],
       settings: {
         fontStyle: 'italic',
-        foreground: Palette.blue
+        foreground: Palette.accent2
       }
     },
     {
@@ -176,7 +176,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       name: 'Self',
       scope: 'variable.language.special.self',
       settings: {
-        foreground: Palette.red
+        foreground: Palette.accent6
       }
 
     },
@@ -184,7 +184,7 @@ export const getTokenColors = (): Array<Record<string, unknown>> => {
       name: 'Function calls',
       scope: 'meta.function-call.generic',
       settings: {
-        foreground: Palette.pink
+        foreground: Palette.accent1
       }
 
     }

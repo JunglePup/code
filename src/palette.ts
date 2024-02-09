@@ -15,10 +15,10 @@ export const Palette = {
   highlight_high: '#544846',
 
   // Accents
-  pink: '#D15B8F',
-  blue: '#61A0C2',
-  camel: '#c19a6b',
-  green: '#569C5B',
-  purple: '#8A79C7',
-  red: '#C63D3D'
+  accent1: '#D15B8F', // pink
+  accent2: '#61A0C2', // blue
+  accent3: '#c19a6b', // camel
+  accent4: '#569C5B', // green
+  accent5: '#8A79C7', // purple
+  accent6: '#C63D3D' // red
 }
