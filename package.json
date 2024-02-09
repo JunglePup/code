@@ -17,9 +17,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Jungle Pup",
+                "label": "Jungle Pup Dense",
                 "uiTheme": "vs-dark",
-                "path": "./themes/JunglePup-regular-color-theme.json"
+                "path": "./themes/JunglePup-dense-color-theme.json"
             }
         ]
     },
