@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/keller00/JunglePup/compare/v1.2.0...v2.0.0) (2024-05-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* "Jungle Pup Dense" color theme might need to be selected again after update
+
+* renaming "Jungle Pup" theme to "Jungle Pup Dense" ([e86d1d4](https://github.com/keller00/JunglePup/commit/e86d1d4d244787821f0c9feeb7c3ebff87d460a3))
+
 ## [1.2.0](https://github.com/keller00/JunglePup/compare/v1.1.2...v1.2.0) (2024-01-13)
 
 
