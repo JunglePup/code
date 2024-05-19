@@ -14,6 +14,18 @@ This editor theme is inspired by two puppies visiting the jungle.
 3. Either edit the file in `themes` folder for them to take effect immediately in the preview windows. This is useful for prototyping, but make sure to change the build ts files before submitting any PRs, these can be found in the `src` folder.
 4. (Optional) Run the build form your terminal with: `npm run build`.
 
+# Customization
+
+As an example assume that we want to change the the remote window background to JunglePup Dense's pink accent color.
+The remote window background is visible in the lower left corner of the screenshot above.
+Just insert the following into your `settings.json`:
+
+```json
+    "workbench.colorCustomizations": {
+        "statusBarItem.remoteBackground": "#D15B8F"
+    }
+```
+
 # Release
 Start on `main` branch.
 1. The release process is automated with `npm run release`.
