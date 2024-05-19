@@ -26,7 +26,7 @@
     "scripts": {
         "lint": "npx eslint --ext .ts src/",
         "build": "ts-node src/build.ts",
-        "publish": "vsce publish",
+        "package": "vsce package",
         "release": "standard-version"
     },
     "icon": "assets/icon.png",
