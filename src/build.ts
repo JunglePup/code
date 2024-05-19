@@ -11,7 +11,10 @@ const flavours = {
 async function main (): Promise<void> {
   for await (const [name, theme] of Object.entries(flavours)) {
     const OutFile = `JunglePup-${name}-color-theme.json`
-    await writeFile(join(OutDir, OutFile), JSON.stringify(theme, null, 2))
+    await writeFile(
+      join(OutDir, OutFile),
+      JSON.stringify(theme, null, 2)
+    )
     console.log(`Wrote ${OutDir}/${OutFile}`)
   }
 }
