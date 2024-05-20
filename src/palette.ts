@@ -48,3 +48,28 @@ export const DensePalette: Palette = {
   accent5: '#8A79C7', // purple
   accent6: '#C63D3D' // red
 }
+
+export const LightPalette: Palette = {
+  // Background
+  back: '#EAFFEB',
+  ui: '#A2CDA7',
+  overlay: '#88BF8E',
+
+  // Text colors
+  muted: '#464034',
+  subtle: '#403B2F',
+  text: '#2F2B23',
+
+  // Highlights
+  highlight_low: '#8CE3DC',
+  highlight_med: '#9CE7E1',
+  highlight_high: '#BDEFEB',
+
+  // Accents
+  accent1: '#D03991', // pink
+  accent2: '#3A6AF8', // blue
+  accent3: '#C16200', // camel
+  accent4: '#F46036', // green
+  accent5: '#4E0250', // purple
+  accent6: '#F72C25' // red
+}
