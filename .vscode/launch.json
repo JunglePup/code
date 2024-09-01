@@ -9,7 +9,7 @@
             "build"
         ],
         "runtimeExecutable": "npm",
-        "type": "pwa-node"
+        "type": "node"
     },
         {
             "name": "Preview window",
