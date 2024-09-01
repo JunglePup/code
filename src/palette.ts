@@ -51,9 +51,9 @@ export const DensePalette: Palette = {
 
 export const LightPalette: Palette = {
   // Background
-  back: '#EAFFEB',
-  ui: '#A2CDA7',
-  overlay: '#88BF8E',
+  back: '#FFD6E0',
+  ui: '#FFC2D1',
+  overlay: '#FFADC2',
 
   // Text colors
   muted: '#464034',
@@ -61,15 +61,15 @@ export const LightPalette: Palette = {
   text: '#2F2B23',
 
   // Highlights
-  highlight_low: '#8CE3DC',
-  highlight_med: '#9CE7E1',
-  highlight_high: '#BDEFEB',
+  highlight_low: '#DEB9FF',
+  highlight_med: '#D29EFF',
+  highlight_high: '#CE96FF',
 
   // Accents
-  accent1: '#D03991', // pink
+  accent1: '#9C33FF', // purple
   accent2: '#3A6AF8', // blue
-  accent3: '#C16200', // camel
-  accent4: '#F46036', // green
-  accent5: '#4E0250', // purple
+  accent3: '#C16200', // brown
+  accent4: '#5C9963', // green
+  accent5: '#4E0250', // orange
   accent6: '#F72C25' // red
 }
