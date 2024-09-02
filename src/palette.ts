@@ -68,8 +68,8 @@ export const LightPalette: Palette = {
   // Accents
   accent1: '#9C33FF', // purple
   accent2: '#3A6AF8', // blue
-  accent3: '#C16200', // brown
+  accent3: '#D86C00', // brown
   accent4: '#5C9963', // green
-  accent5: '#4E0250', // orange
+  accent5: '#E7386A', // cherry
   accent6: '#F72C25' // red
 }

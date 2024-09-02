@@ -7,8 +7,8 @@ export const getColors = (palette: Palette): Record<string, unknown> => {
     'editorCursor.foreground': palette.text,
     'editor.foreground': palette.text,
     'editorWhitespace.foreground': palette.overlay,
-    'editor.lineHighlightBackground': palette.highlight_low,
-    'editor.selectionBackground': palette.highlight_high,
+    'editor.lineHighlightBackground': opacity(palette.highlight_low, 0.7),
+    'editor.selectionBackground': opacity(palette.highlight_high, 0.7),
     'editor.inactiveSelectionBackground': palette.highlight_med,
     'editor.selectionHighlightBackground': palette.highlight_med,
     'editorLineNumber.foreground': palette.accent4,
@@ -22,7 +22,7 @@ export const getColors = (palette: Palette): Record<string, unknown> => {
     'sideBar.background': palette.ui,
     'statusBar.background': palette.ui,
     'statusBar.debuggingBackground': palette.accent4,
-    'statusBarItem.remoteBackground': palette.accent3,
+    'statusBarItem.remoteBackground': palette.accent5,
     'titleBar.activeBackground': palette.ui,
     'titleBar.inactiveBackground': palette.ui,
     'tab.activeBackground': palette.overlay,
@@ -110,7 +110,23 @@ export const getColors = (palette: Palette): Record<string, unknown> => {
     'debugConsoleInputIcon.foreground': palette.accent1,
     // Inlay Hint Colors
     'editor.inlineSuggest.enabled': true,
-    'editorInlayHint.background': palette.ui,
-    'editorInlayHint.foreground': palette.subtle
+    'editorInlayHint.background': opacity(palette.ui, 0.9),
+    'editorInlayHint.foreground': palette.subtle,
+    // Lists and trees
+    'list.activeSelectionBackground': palette.highlight_med,
+    'list.inactiveSelectionBackground': opacity(palette.highlight_med, 0.5),
+    'list.dropBackground': opacity(palette.highlight_low, 0.8),
+    'list.focusBackground': palette.highlight_med,
+    'list.hoverBackground': palette.highlight_low,
+    'list.warningForeground': palette.accent3,
+    'list.errorForeground': palette.accent6,
+    // Peek view colors
+    'peekView.border': palette.accent1,
+    'peekViewEditor.background': palette.ui,
+    'peekViewResult.background': palette.overlay,
+    'peekViewResult.lineForeground': palette.accent5,
+    'peekViewTitle.background': palette.overlay,
+    // Sticky scroll
+    'editorStickyScroll.shadow': palette.accent6
   }
 }

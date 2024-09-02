@@ -22,9 +22,9 @@
                 "path": "./themes/JunglePup-dense-color-theme.json"
             },
             {
-                "label": "Jungle Pup Light",
+                "label": "Jungle Pup Field",
                 "uiTheme": "vs",
-                "path": "./themes/JunglePup-light-color-theme.json"
+                "path": "./themes/JunglePup-field-color-theme.json"
             }
         ]
     },
