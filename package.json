@@ -20,6 +20,11 @@
                 "label": "Jungle Pup Dense",
                 "uiTheme": "vs-dark",
                 "path": "./themes/JunglePup-dense-color-theme.json"
+            },
+            {
+                "label": "Jungle Pup Field",
+                "uiTheme": "vs",
+                "path": "./themes/JunglePup-field-color-theme.json"
             }
         ]
     },
