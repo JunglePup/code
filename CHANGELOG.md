@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/keller00/JunglePup/compare/v2.1.0...v2.1.1) (2024-09-05)
+
+
+### Bug Fixes
+
+* added missing Jungle Pup Field screenshot to README ([8b2e5a5](https://github.com/keller00/JunglePup/commit/8b2e5a5f74de6097f910eeeddfab7c77a4797d82))
+
 ## [2.1.0](https://github.com/keller00/JunglePup/compare/v2.0.0...v2.1.0) (2024-09-05)
 
 
