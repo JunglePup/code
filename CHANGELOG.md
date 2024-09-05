@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/keller00/JunglePup/compare/v2.0.0...v2.1.0) (2024-09-05)
+
+
+### Features
+
+* light flavour v0.1 ([d7e5095](https://github.com/keller00/JunglePup/commit/d7e50952b9ee8cadc8ec0760e103fbeb2e83edc9))
+* light flavour v1 ([ed9f4a8](https://github.com/keller00/JunglePup/commit/ed9f4a87a0425988fd4982d972943ad8da5068bb))
+
 ## [2.0.0](https://github.com/keller00/JunglePup/compare/v1.2.0...v2.0.0) (2024-05-08)
 
 
