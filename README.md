@@ -1,7 +1,18 @@
 # Jungle Pup
-This editor theme is inspired by two puppies visiting the jungle.
 
-![screenshot of VS code with Jungle Pup theme](https://user-images.githubusercontent.com/8452750/162604541-f4c93bb9-b116-42ac-ae61-d687e73e332e.jpg)
+These editor themes are inspired by two puppies visiting the jungle.
+
+## Jungle Pup Dense
+
+Dark flavour of Jungle Pup. _The OG_
+
+![screenshot of VS code with Jungle Pup Dense theme](https://user-images.githubusercontent.com/8452750/162604541-f4c93bb9-b116-42ac-ae61-d687e73e332e.jpg)
+
+## Jungle Pup Field
+
+Light flavour of Jungle Pup. _The newest addition_
+
+![screenshot of VS code with Jungle Pup Dense theme](https://github.com/user-attachments/assets/5e675258-bbb3-4001-863b-3137cc04ac05)
 
 # Installation
 * [Install it from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=keller00.junglepup)
