@@ -11,7 +11,7 @@
     "editor.selectionHighlightBackground": "#D29EFF",
     "editorLineNumber.foreground": "#5C9963",
     "editorLineNumber.activeForeground": "#403B2F",
-    "editor.wordHighlightBackground": "#D29EFF",
+    "editor.wordHighlightBackground": "#D29EFF99",
     "foreground": "#2F2B23",
     "textLink.foreground": "#9C33FF",
     "activityBar.background": "#FFC2D1",

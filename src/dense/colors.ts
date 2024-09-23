@@ -13,7 +13,7 @@ export const getColors = (palette: Palette): Record<string, unknown> => {
     'editor.selectionHighlightBackground': palette.highlight_med,
     'editorLineNumber.foreground': palette.accent4,
     'editorLineNumber.activeForeground': palette.subtle,
-    'editor.wordHighlightBackground': palette.highlight_med,
+    'editor.wordHighlightBackground': opacity(palette.highlight_med, 0.6),
     // UI Colors
     foreground: palette.text,
     'textLink.foreground': palette.accent1,
