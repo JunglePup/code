@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.2](https://github.com/keller00/JunglePup/compare/v2.1.1...v2.1.2) (2024-09-23)
+
+
+### Bug Fixes
+
+* word highlight and selection highlight no longer uses the exact same colors ([7a129f1](https://github.com/keller00/JunglePup/commit/7a129f1fa1e4b350a332ab6b50638c44fd2fe928))
+
 ### [2.1.1](https://github.com/keller00/JunglePup/compare/v2.1.0...v2.1.1) (2024-09-05)
 
 
