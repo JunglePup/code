@@ -1,5 +1,5 @@
 import { join } from 'node:path'
-import { writeFile } from 'node:fs/promises'
+import { writeFile, readFile } from 'node:fs/promises'
 import { buildTheme as buildDenseTheme } from './dense/index.ts'
 import { buildTheme as buildLightTheme } from './field/index.ts'
 
@@ -12,14 +12,24 @@ const flavours = {
 }
 
 async function main (): Promise<void> {
+  let filesChanged = false
   for await (const [name, theme] of Object.entries(flavours)) {
-    const OutFile = `JunglePup-${name}-color-theme.json`
-    await writeFile(
-      join(OutDir, OutFile),
-      JSON.stringify(theme, null, 2)
+    const FileName = `JunglePup-${name}-color-theme.json`
+    const File = join(OutDir, FileName)
+    const buf = await readFile(
+      File
     )
-    console.log(`Wrote ${OutDir}/${OutFile}`)
+    const themeStr = JSON.stringify(theme, null, 2)
+    if (buf.toString() !== themeStr) {
+      filesChanged = true
+    }
+    await writeFile(
+      File,
+      themeStr
+    )
+    console.log(`Wrote ${File}`)
   }
+  if (filesChanged) { process.exit(2) }
 }
 
 (async () => {
