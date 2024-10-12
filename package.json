@@ -6,7 +6,7 @@
     "version": "2.1.2",
     "repository": {
         "type": "git",
-        "url": "https://github.com/keller00/JunglePup"
+        "url": "https://github.com/JunglePup/code"
     },
     "engines": {
         "vscode": "^1.65.0"

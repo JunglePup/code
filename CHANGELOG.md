@@ -2,55 +2,55 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [2.1.2](https://github.com/keller00/JunglePup/compare/v2.1.1...v2.1.2) (2024-09-23)
+### [2.1.2](https://github.com/JunglePup/code/compare/v2.1.1...v2.1.2) (2024-09-23)
 
 
 ### Bug Fixes
 
-* word highlight and selection highlight no longer uses the exact same colors ([7a129f1](https://github.com/keller00/JunglePup/commit/7a129f1fa1e4b350a332ab6b50638c44fd2fe928))
+* word highlight and selection highlight no longer uses the exact same colors ([7a129f1](https://github.com/JunglePup/code/commit/7a129f1fa1e4b350a332ab6b50638c44fd2fe928))
 
-### [2.1.1](https://github.com/keller00/JunglePup/compare/v2.1.0...v2.1.1) (2024-09-05)
+### [2.1.1](https://github.com/JunglePup/code/compare/v2.1.0...v2.1.1) (2024-09-05)
 
 
 ### Bug Fixes
 
-* added missing Jungle Pup Field screenshot to README ([8b2e5a5](https://github.com/keller00/JunglePup/commit/8b2e5a5f74de6097f910eeeddfab7c77a4797d82))
+* added missing Jungle Pup Field screenshot to README ([8b2e5a5](https://github.com/JunglePup/code/commit/8b2e5a5f74de6097f910eeeddfab7c77a4797d82))
 
-## [2.1.0](https://github.com/keller00/JunglePup/compare/v2.0.0...v2.1.0) (2024-09-05)
+## [2.1.0](https://github.com/JunglePup/code/compare/v2.0.0...v2.1.0) (2024-09-05)
 
 
 ### Features
 
-* light flavour v0.1 ([d7e5095](https://github.com/keller00/JunglePup/commit/d7e50952b9ee8cadc8ec0760e103fbeb2e83edc9))
-* light flavour v1 ([ed9f4a8](https://github.com/keller00/JunglePup/commit/ed9f4a87a0425988fd4982d972943ad8da5068bb))
+* light flavour v0.1 ([d7e5095](https://github.com/JunglePup/code/commit/d7e50952b9ee8cadc8ec0760e103fbeb2e83edc9))
+* light flavour v1 ([ed9f4a8](https://github.com/JunglePup/code/commit/ed9f4a87a0425988fd4982d972943ad8da5068bb))
 
-## [2.0.0](https://github.com/keller00/JunglePup/compare/v1.2.0...v2.0.0) (2024-05-08)
+## [2.0.0](https://github.com/JunglePup/code/compare/v1.2.0...v2.0.0) (2024-05-08)
 
 
 ### ⚠ BREAKING CHANGES
 
 * "Jungle Pup Dense" color theme might need to be selected again after update
 
-* renaming "Jungle Pup" theme to "Jungle Pup Dense" ([e86d1d4](https://github.com/keller00/JunglePup/commit/e86d1d4d244787821f0c9feeb7c3ebff87d460a3))
+* renaming "Jungle Pup" theme to "Jungle Pup Dense" ([e86d1d4](https://github.com/JunglePup/code/commit/e86d1d4d244787821f0c9feeb7c3ebff87d460a3))
 
-## [1.2.0](https://github.com/keller00/JunglePup/compare/v1.1.2...v1.2.0) (2024-01-13)
+## [1.2.0](https://github.com/JunglePup/code/compare/v1.1.2...v1.2.0) (2024-01-13)
 
 
 ### Features
 
-* add extension icon ([#27](https://github.com/keller00/JunglePup/issues/27)) ([6475568](https://github.com/keller00/JunglePup/commit/647556856a31bbb4c396c91fed7b249f1cf09979))
+* add extension icon ([#27](https://github.com/JunglePup/code/issues/27)) ([6475568](https://github.com/JunglePup/code/commit/647556856a31bbb4c396c91fed7b249f1cf09979))
 
 
 ### Bug Fixes
 
-* shrink size of theme ([#28](https://github.com/keller00/JunglePup/issues/28)) ([43a567d](https://github.com/keller00/JunglePup/commit/43a567deb9121b452c9d38808274f463f6897a21))
+* shrink size of theme ([#28](https://github.com/JunglePup/code/issues/28)) ([43a567d](https://github.com/JunglePup/code/commit/43a567deb9121b452c9d38808274f463f6897a21))
 
-### [1.1.2](https://github.com/keller00/JunglePup/compare/v1.1.1...v1.1.2) (2024-01-10)
+### [1.1.2](https://github.com/JunglePup/code/compare/v1.1.1...v1.1.2) (2024-01-10)
 
 
 ### Bug Fixes
 
-* added previous changelog ([#24](https://github.com/keller00/JunglePup/issues/24)) ([f5ed745](https://github.com/keller00/JunglePup/commit/f5ed7458ad0c7393e5dd6511addabfea2b82a452))
+* added previous changelog ([#24](https://github.com/JunglePup/code/issues/24)) ([f5ed745](https://github.com/JunglePup/code/commit/f5ed7458ad0c7393e5dd6511addabfea2b82a452))
 
 ## [1.1.1](https://github.com/JunglePup/code/compare/v1.1.0...v1.1.1) (2023-10-16)
 
