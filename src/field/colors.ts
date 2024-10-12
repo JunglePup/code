@@ -75,7 +75,7 @@ export const getColors = (palette: Palette): Record<string, unknown> => {
     'merge.currentHeaderBackground': opacity(palette.accent1, 0.56),
     'merge.currentContentBackground': opacity(palette.accent1, 0.37),
     'editorOverviewRuler.currentContentForeground': opacity(palette.accent1, 0.56),
-    'merge.incomingHeaderBackground': opacity(palette.accent5, 56),
+    'merge.incomingHeaderBackground': opacity(palette.accent5, 0.56),
     'merge.incomingContentBackground': opacity(palette.accent5, 0.37),
     'editorOverviewRuler.incomingContentForeground': opacity(palette.accent5, 0.56),
     // Testing Colors
@@ -109,7 +109,6 @@ export const getColors = (palette: Palette): Record<string, unknown> => {
     'debugConsole.sourceForeground': palette.accent5,
     'debugConsoleInputIcon.foreground': palette.accent1,
     // Inlay Hint Colors
-    'editor.inlineSuggest.enabled': true,
     'editorInlayHint.background': opacity(palette.ui, 0.9),
     'editorInlayHint.foreground': palette.subtle,
     // Lists and trees
