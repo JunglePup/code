@@ -1,5 +1,5 @@
-import type { Palette } from '../palette'
-import { opacity } from '../utils'
+import type { Palette } from '../palette.ts'
+import { opacity } from '../utils.ts'
 
 export const getColors = (palette: Palette): Record<string, unknown> => {
   return {
@@ -9,8 +9,8 @@ export const getColors = (palette: Palette): Record<string, unknown> => {
     'editorWhitespace.foreground': palette.overlay,
     'editor.lineHighlightBackground': opacity(palette.highlight_low, 0.7),
     'editor.selectionBackground': opacity(palette.highlight_high, 0.7),
-    'editor.inactiveSelectionBackground': palette.highlight_med,
-    'editor.selectionHighlightBackground': palette.highlight_med,
+    'editor.inactiveSelectionBackground': opacity(palette.highlight_med, 0.7),
+    'editor.selectionHighlightBackground': opacity(palette.highlight_med, 0.8),
     'editorLineNumber.foreground': palette.accent4,
     'editorLineNumber.activeForeground': palette.subtle,
     'editor.wordHighlightBackground': opacity(palette.highlight_med, 0.6),
@@ -48,11 +48,11 @@ export const getColors = (palette: Palette): Record<string, unknown> => {
     'editorGroupHeader.tabsBackground': palette.back,
     'progressBar.background': palette.accent1,
     // Minimap Colors
-    'minimap.findMatchHighlight': palette.accent3,
-    'minimap.selectionHighlight': palette.highlight_high,
+    'minimap.findMatchHighlight': opacity(palette.accent3, 0.5),
+    'minimap.selectionHighlight': opacity(palette.highlight_high, 0.7),
     'minimap.errorHighlight': palette.accent6,
     'minimap.warningHighlight': palette.accent5,
-    'minimap.selectionOccurrenceHighlight': palette.highlight_med,
+    'minimap.selectionOccurrenceHighlight': opacity(palette.highlight_med, 0.7),
     'minimapGutter.addedBackground': palette.accent4,
     'minimapGutter.modifiedBackground': palette.accent3,
     'minimapGutter.deletedBackground': palette.accent6,
@@ -75,7 +75,7 @@ export const getColors = (palette: Palette): Record<string, unknown> => {
     'merge.currentHeaderBackground': opacity(palette.accent1, 0.56),
     'merge.currentContentBackground': opacity(palette.accent1, 0.37),
     'editorOverviewRuler.currentContentForeground': opacity(palette.accent1, 0.56),
-    'merge.incomingHeaderBackground': opacity(palette.accent5, 56),
+    'merge.incomingHeaderBackground': opacity(palette.accent5, 0.56),
     'merge.incomingContentBackground': opacity(palette.accent5, 0.37),
     'editorOverviewRuler.incomingContentForeground': opacity(palette.accent5, 0.56),
     // Testing Colors
@@ -109,7 +109,6 @@ export const getColors = (palette: Palette): Record<string, unknown> => {
     'debugConsole.sourceForeground': palette.accent5,
     'debugConsoleInputIcon.foreground': palette.accent1,
     // Inlay Hint Colors
-    'editor.inlineSuggest.enabled': true,
     'editorInlayHint.background': opacity(palette.ui, 0.9),
     'editorInlayHint.foreground': palette.subtle,
     // Lists and trees
