@@ -1,8 +1,8 @@
-import { getColors } from './colors'
-import { getTokenColors } from './tokenColors'
-import { LightPalette } from '../palette'
-import { capitalizeFirstLetter } from '../utils'
-import { basename } from 'path'
+import { getColors } from './colors.ts'
+import { getTokenColors } from './tokenColors.ts'
+import { LightPalette } from '../palette.ts'
+import { capitalizeFirstLetter } from '../utils.ts'
+import { basename } from 'node:path'
 
 const thisFlavour = capitalizeFirstLetter(basename(__dirname))
 

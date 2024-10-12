@@ -1,4 +1,4 @@
-import type { Palette } from '../palette'
+import type { Palette } from '../palette.ts'
 
 export const getTokenColors = (palette: Palette): Array<Record<string, unknown>> => {
   return [

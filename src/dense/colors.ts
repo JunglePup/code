@@ -1,5 +1,5 @@
-import type { Palette } from '../palette'
-import { opacity } from '../utils'
+import type { Palette } from '../palette.ts'
+import { opacity } from '../utils.ts'
 
 export const getColors = (palette: Palette): Record<string, unknown> => {
   return {

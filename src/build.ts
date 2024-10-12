@@ -1,7 +1,7 @@
-import { join } from 'path'
-import { writeFile } from 'fs/promises'
-import { buildTheme as buildDenseTheme } from './dense'
-import { buildTheme as buildLightTheme } from './field'
+import { join } from 'node:path'
+import { writeFile } from 'node:fs/promises'
+import { buildTheme as buildDenseTheme } from './dense/index.ts'
+import { buildTheme as buildLightTheme } from './field/index.ts'
 
 const OutDir = join(__dirname, '..', 'themes')
 const flavours = {
