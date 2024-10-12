@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.3](https://github.com/JunglePup/code/compare/v2.1.2...v2.1.3) (2024-10-12)
+
+
+### Bug Fixes
+
+* changelog urls ([6603972](https://github.com/JunglePup/code/commit/66039725bd5655649d2d0ed0186dbac14b09ff4f))
+* fixed a bug where opacity could be out of bounds ([b098916](https://github.com/JunglePup/code/commit/b09891641ed7a9b281b8532fb5c289726b1b82ff))
+* made a bunch of colors see through that should have never been opaque ([1130a80](https://github.com/JunglePup/code/commit/1130a80b7e3561c668c2f247faefc1b2a23abe49))
+
 ### [2.1.2](https://github.com/JunglePup/code/compare/v2.1.1...v2.1.2) (2024-09-23)
 
 
